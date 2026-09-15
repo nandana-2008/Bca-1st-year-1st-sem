@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n=40,r=20;
+int l=20,s=30;
+if(n>r&&n!=0)
+{
+printf("&& operator: both conditions are true\n");
+}
+if(l>s||s!=20)
+{
+printf("|| operator: only one condition is true\n");
+}
+if(!(n>r&&n!=0))
+{
+printf("! operator : both conditions are true\n");
+}
+else
+{
+printf("! operator: both conditions are true");
+}
+getch ();
+return 0;
+}
+Output
+&& operator: both conditions are true
+|| operator: only one condition is true
+! operator: both conditions are true
