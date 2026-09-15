@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a=160,b=80,add,sub,div,mul,mod;
+add=a+b;
+sub=a-b;
+div=a/b;
+mul=a*b;
+mod=a%b;
+printf("addition of a, b is :%d\n",add);
+printf("subtraction of a, b is :%d\n",sub);
+printf("division of a, b is :%d\n",div);
+printf("multiplication of a, b is:%d\n",mul);
+printf("modulus of a, b is :%d\n",mod);
+getch ();
+return 0;
+}
+addition of a, b is :240
+subtraction of a, b is :80
+division of a, b is :2
+multiplication of a, b is:12800
+modulus of a, b is :0
