@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n=18,r=19;
+if(n==r)
+{
+printf("n and r are equal");
+}
+else
+{
+printf("n and r are not equal");
+}
+getch ();
+return 0;
+}
+Output
+n and r are not equal
