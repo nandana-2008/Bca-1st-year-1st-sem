@@ -16,6 +16,7 @@ printf("modulus of a, b is :%d\n",mod);
 getch ();
 return 0;
 }
+Output
 addition of a, b is :240
 subtraction of a, b is :80
 division of a, b is :2
