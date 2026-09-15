@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int n=18;
+int r;
+r=n;
+r+=n;
+printf("value of r=%d\n",r);
+getch ();
+return 0;
+}
+Output 
+value of r=36
