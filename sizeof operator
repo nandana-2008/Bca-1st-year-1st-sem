@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<limits.h>
+void main()
+{
+int a;
+char b;
+float c;
+double d;
+printf("storage size for int:%d\n",sizeof(a));
+printf("storage size of char:%d\n",sizeof(b));
+printf("storage size of float:%d\n",sizeof(c));
+printf("storage size of double:%d\n",sizeof(d));
+}
+Output
+storage size for int:4
+storage size of char:1
+storage size of float:4
+storage size of double:8
