@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main()
+{
+int a,b;
+char opr;
+printf("Enter the operator(+,-,*,/)");
+scanf("%c",&opr);
+switch(opr)
+{
+case'+':printf("Enter the values for a & b\n");
+scanf("%d%d",&a,&b);
+printf("a+b=%d\n",a+b);
+break;
+case'-':printf("Enter the values for a & b\n");
+scanf("%d%d",&a,&b);
+printf("a-b=%d\n",a-b);
+break;
+case'*':printf("Enter the values of a & b\n");
+scanf("%d%d",&a,&b);
+printf("a*b=%d\n",a*b);
+break;
+case'/':printf("Enter the values of a & b\n");
+scanf("%d%d",&a,&b);
+printf("a/b=%d\n",a/b);
+break;
+default:printf("Invalid operator\n");
+}
+}
+Output
+Enter the operator(+,-,*,/)+
+Enter the values for a & b
+2 6
+a+b=8
